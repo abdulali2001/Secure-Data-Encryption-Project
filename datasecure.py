@@ -1,4 +1,3 @@
-# Develop a Streamlit-based secure data storage and retrieval system
 
 import streamlit as st
 import hashlib
