@@ -139,7 +139,7 @@ elif choice == "Retrieve Data":
     if not st.session_state.authenticated_user:
         st.warning("🔓 Please login first.")
     else:
-        st.subheader("🔍 Retrieve Data")
+        st.subheader("🔎 Retrieve Data")
         user_data = stored_data.get(st.session_state.authenticated_user, {}).get("data", [])
 
         if not user_data:
